@@ -1,0 +1,41 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: black; */
+}
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* 
+  background: rgba(0, 0, 0, 0.5);
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  border-radius: 3px;
+}

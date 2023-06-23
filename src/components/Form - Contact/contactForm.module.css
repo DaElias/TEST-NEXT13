@@ -1,0 +1,56 @@
+.container {
+}
+.title {
+  font-size: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.img {
+  border-radius: 10px;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+@keyframes move {
+  form {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.content {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.imgContainer {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input,
+.textarea {
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 3px solid #bbb;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.textarea {
+  height: 200px;
+  max-height: 300px;
+}

@@ -1,0 +1,43 @@
+.container {
+}
+
+.item {
+  display: flex;
+  margin: 40px 0px 40px 0px;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  width: 50%;
+}
+.title {
+  font-size: 42px;
+  font-weight: bold;
+}
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+.username {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.avatar {
+  border-radius: 50%;
+}
+
+.imgContainer {
+  position: relative;
+  height: 350px;
+  width: 700px;
+}
+.img {
+  object-fit: cover;
+  border-radius: 5px;
+}
